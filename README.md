@@ -6,7 +6,8 @@ The site highlights the company’s expertise in **custom machine die making, pl
 ---
 
 ## 🌐 Live Website
-*(Add your GitHub Pages / Hosting link here after deployment)*
+
+[Hosting link here](https://vishnu-engineering-works.web.app/)
 
 ---
 
@@ -28,29 +29,36 @@ The site highlights the company’s expertise in **custom machine die making, pl
 ## ✨ Features
 
 - **Responsive Navigation Bar**
+
   - Top menu with sidebar for mobile view.
 
 - **Hero Section**
+
   - Headline with intro text and call-to-action button.
 
 - **About Section**
+
   - History, mission, and experience details.
 
 - **Services Section**
+
   - Custom machine die making
   - Plastic injection mold design
   - Metal die model fabrication
   - Die repair & modification
 
 - **Gallery Section**
+
   - Showcasing real project work.
 
 - **Contact Section**
+
   - Contact form powered by **Web3Forms API**.
   - Auto-validation and success/error messages.
   - Direct links to email and phone.
 
 - **Footer**
+
   - Company information and copyright.
 
 - **Image Loading Effects**
@@ -68,6 +76,7 @@ The site highlights the company’s expertise in **custom machine die making, pl
 ```
 
 - Current Access Key in use:
+
 ```
 aabe2adb-3248-*************  ☠️💀🗿
 ```
@@ -77,11 +86,13 @@ aabe2adb-3248-*************  ☠️💀🗿
 ## 🚀 How to Run Locally
 
 1. Clone the repository:
+
    ```bash
    git clone https://github.com/your-username/vishnu-engineering-works.git
    ```
 
 2. Navigate into the project folder:
+
    ```bash
    cd vishnu-engineering-works
    ```
@@ -104,7 +115,7 @@ aabe2adb-3248-*************  ☠️💀🗿
 **Vishnu Engineering Works**  
 Ahmedabad, Gujarat – India  
 📧 [vishnuengineering01@gmail.com](mailto:vishnuengineering01@gmail.com)  
-📞 +91-9825588038  
+📞 +91-9825588038
 
 ---
 
