@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Vishnu Engineering Work</title>
     <link rel="stylesheet" href="styles.css" />
-    <link rel="icon" type="image/png" href="favv.png" />
+    <link rel="icon" type="image/png" href="GALLERY/favv.png" />
   </head>
   <body>
     <div class="main" id="home">
@@ -47,7 +47,7 @@
         </div>
         <div class="right">
           <img
-            src="CNC-DRILL.png"
+            src="GALLERY/CNC-DRILL.png"
             class="loading-eff"
             loading="lazy"
             loading="lazy"
@@ -137,22 +137,52 @@
       </p>
       <div class="my-gallery-pics">
         <div>
-          <img src="one.JPG" alt="" class="loading-eff" loading="lazy" />
+          <img
+            src="GALLERY/one.JPG"
+            alt=""
+            class="loading-eff"
+            loading="lazy"
+          />
         </div>
         <div>
-          <img src="2nd.JPG" alt="" class="loading-eff" loading="lazy" />
+          <img
+            src="GALLERY/2nd.JPG"
+            alt=""
+            class="loading-eff"
+            loading="lazy"
+          />
         </div>
         <div>
-          <img src="3rd.JPG" alt="" class="loading-eff" loading="lazy" />
+          <img
+            src="GALLERY/3rd.JPG"
+            alt=""
+            class="loading-eff"
+            loading="lazy"
+          />
         </div>
         <div>
-          <img src="4th.JPG" alt="" class="loading-eff" loading="lazy" />
+          <img
+            src="GALLERY/4th.JPG"
+            alt=""
+            class="loading-eff"
+            loading="lazy"
+          />
         </div>
         <div>
-          <img src="5th.JPG" alt="" class="loading-eff" loading="lazy" />
+          <img
+            src="GALLERY/5th.JPG"
+            alt=""
+            class="loading-eff"
+            loading="lazy"
+          />
         </div>
         <div>
-          <img src="6th.JPG" alt="" class="loading-eff" loading="lazy" />
+          <img
+            src="GALLERY/6th.JPG"
+            alt=""
+            class="loading-eff"
+            loading="lazy"
+          />
         </div>
       </div>
     </div>
@@ -294,18 +324,16 @@
         sidebar.style.display = "none";
       }
 
-      
-
       document.querySelectorAll(".sidebar a").forEach((link) => {
         link.addEventListener("click", hideSidebar);
       });
 
       document.querySelectorAll(".loading-eff").forEach((img) => {
         if (img.complete) {
-          img.classList.add("loaded"); 
+          img.classList.add("loaded");
         } else {
           img.addEventListener("load", () => {
-            img.classList.add("loaded");  
+            img.classList.add("loaded");
           });
         }
       });
