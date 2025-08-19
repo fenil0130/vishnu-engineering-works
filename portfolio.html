@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Vishnu Engineering-Portfolio</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="icon" type="image/png" href="favv.png" />
+    <style>
+      body {
+        height: 100%;
+        width: 100%;
+      }
+    </style>
+  </head>
+  <body>
+    <nav class="nevi">
+      <a href="index.html" class="back-button"
+        ><img src="./back-light-svgrepo-com (1).svg" alt="back-button"
+      /></a>
+      <h3><img src="1-removebg-preview.png" /></h3>
+    </nav>
+
+    <h1 class="my-ptf">My Portfolio</h1>
+
+    <div class="gallery">
+      <a href="#img1"
+        ><img src="one.JPG" alt="Project 1" class="loading-eff" loading="lazy"
+      /></a>
+      <a href="#img2"
+        ><img src="2nd.JPG" alt="Project 2" class="loading-eff" loading="lazy"
+      /></a>
+      <a href="#img3"
+        ><img src="3rd.JPG" alt="Project 3" class="loading-eff" loading="lazy"
+      /></a>
+      <a href="#img4"
+        ><img src="4th.JPG" alt="Project 4" class="loading-eff" loading="lazy"
+      /></a>
+      <a href="#img5"
+        ><img src="5th.JPG" alt="Project 5" class="loading-eff" loading="lazy"
+      /></a>
+      <a href="#img6"
+        ><img src="6th.JPG" alt="Project 6" class="loading-eff" loading="lazy"
+      /></a>
+      <a href="#img7"
+        ><img src="7th.jpeg" alt="Project 7" class="loading-eff" loading="lazy"
+      /></a>
+      <a href="#img8"
+        ><img src="8th.jpeg" alt="Project 8" class="loading-eff" loading="lazy"
+      /></a>
+      <a href="#img9"
+        ><img src="9th.jpg" alt="Project 9" class="loading-eff" loading="lazy"
+      /></a>
+      <a href="#img12"
+        ><img
+          src="10th.webp"
+          alt="Project 10"
+          class="loading-eff"
+          loading="lazy"
+      /></a>
+      <a href="#img11"
+        ><img
+          src="11th.webp"
+          alt="Project 11"
+          class="loading-eff"
+          loading="lazy"
+      /></a>
+      <a href="#img12"
+        ><img
+          src="12th.webp"
+          alt="Project 12"
+          class="loading-eff"
+          loading="lazy"
+      /></a>
+    </div>
+
+    <!-- Lightbox Overlays -->
+    <div id="img1" class="lightbox">
+      <a href="#" class="lightbox-close">&times;</a>
+      <img src="one.JPG" alt="Project 1" />
+    </div>
+    <div id="img2" class="lightbox">
+      <a href="#" class="lightbox-close">&times;</a>
+      <img src="2nd.JPG" alt="Project 2" />
+    </div>
+    <div id="img3" class="lightbox">
+      <a href="#" class="lightbox-close">&times;</a>
+      <img src="3rd.JPG" alt="Project 3" />
+    </div>
+    <div id="img4" class="lightbox">
+      <a href="#" class="lightbox-close">&times;</a>
+      <img src="4th.JPG" alt="Project 4" />
+    </div>
+    <div id="img5" class="lightbox">
+      <a href="#" class="lightbox-close">&times;</a>
+      <img src="5th.JPG" alt="Project 5" />
+    </div>
+    <div id="img6" class="lightbox">
+      <a href="#" class="lightbox-close">&times;</a>
+      <img src="6th.JPG" alt="Project 6" />
+    </div>
+    <div id="img7" class="lightbox">
+      <a href="#" class="lightbox-close">&times;</a>
+      <img src="7th.jpeg" alt="Project 7" />
+    </div>
+    <div id="img8" class="lightbox">
+      <a href="#" class="lightbox-close">&times;</a>
+      <img src="8th.jpeg" alt="Project 8" />
+    </div>
+    <div id="img9" class="lightbox">
+      <a href="#" class="lightbox-close">&times;</a>
+      <img src="9th.jpg" alt="Project 9" />
+    </div>
+    <div id="img10" class="lightbox">
+      <a href="#" class="lightbox-close">&times;</a>
+      <img src="10th.webp" alt="Project 10" />
+    </div>
+    <div id="img11" class="lightbox">
+      <a href="#" class="lightbox-close">&times;</a>
+      <img src="11th.webp" alt="Project 11" />
+    </div>
+    <div id="img12" class="lightbox">
+      <a href="#" class="lightbox-close">&times;</a>
+      <img src="12th.webp" alt="Project 12" />
+    </div>
+
+    <footer class="my-ptf-footer">
+      <p>© 2025 Vishnu Engineering Works All rights reserved.</p>
+    </footer>
+
+    <script>
+      document.querySelectorAll(".loading-eff").forEach((img) => {
+        if (img.complete) {
+          img.classList.add("loaded");  
+        } else {
+          img.addEventListener("load", () => {
+            img.classList.add("loaded");  
+          });
+        }
+      });
+    </script>
+
+    
+  </body>
+</html>
