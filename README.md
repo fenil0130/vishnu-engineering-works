@@ -123,3 +123,15 @@ Ahmedabad, Gujarat – India
 ## 📜 License
 
 © 2025 Vishnu Engineering Works. All rights reserved.
+
+## 📸 Website Screenshots
+
+### 🏠 Home + Hero Section
+
+![Desktop view](GALLERY/desktop.png)
+
+### 🛠️ Services Section
+
+![Desktop view](GALLERY/phone.png)
+
+---
