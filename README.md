@@ -126,12 +126,8 @@ Ahmedabad, Gujarat – India
 
 ## 📸 Website Screenshots
 
-### 🏠 Home + Hero Section
+### 🏠 Desktop & Phone view
 
-![Desktop view](GALLERY/desktop.png)
-
-### 🛠️ Services Section
-
-![Desktop view](GALLERY/phone.png)
+![Desktop view](GALLERY/desktop&phone.jpg)
 
 ---
