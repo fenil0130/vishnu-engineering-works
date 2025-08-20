@@ -1,105 +1,133 @@
-# 🚀 Portfolio Website - Real World Project
+# Vishnu Engineering Works - Website
 
-![Portfolio Banner](screenshots/desktop&phone.jpg)
-
-<p align="center">
-  <img src="https://img.shields.io/badge/HTML5-orange?logo=html5&logoColor=white" />
-  <img src="https://img.shields.io/badge/CSS3-blue?logo=css3&logoColor=white" />
-  <img src="https://img.shields.io/badge/JavaScript-yellow?logo=javascript&logoColor=black" />
-  <img src="https://img.shields.io/badge/Firebase-ffca28?logo=firebase&logoColor=black" />
-  <img src="https://img.shields.io/badge/Live-Website-brightgreen?logo=vercel&logoColor=white" />
-</p>
+This is the official website for **Vishnu Engineering Works**, a trusted workshop based in Ahmedabad, Gujarat – India.  
+The site highlights the company’s expertise in **custom machine die making, plastic injection mold design, metal die fabrication, and die repair/modification**.
 
 ---
 
-## 🌐 Live Demo
-🔗 [Visit Live Website](https://portfolio-ramdev-dalwada.web.app/)
+## 🌐 Live Website
 
----
+🚀 Visit our **Official Website** here 👉 [Vishnu Engineering Works - Official Website](https://vishnu-engineering-works.web.app)
 
-## 📸 Screenshots
-- Desktop & Mobile View  
-![Desktop & Mobile](screenshots/desktop&phone.jpg)
+✨ This is the **official live website** of Vishnu Engineering Works, actively used by real clients and customers of the company.  
+✨ Hosted securely with real-world deployment for business use.
+
+## 📂 Project Structure
+
+```
+📁 Vishnu-Engineering-Works
+ ┣ 📄 index.html        # Main website page
+ ┣ 📄 styles.css        # Styling for the website
+ ┣ 📄 portfolio.html    # Portfolio page (linked in navbar)
+ ┣ 📄 favv.png          # Favicon
+ ┣ 📄 CNC-DRILL.png     # Hero section image
+ ┣ 📄 one.JPG ... 6th.JPG   # Gallery images
+ ┗ 📄 README.md         # Project documentation
+```
 
 ---
 
 ## ✨ Features
-- Responsive modern design (mobile-first)
-- Firebase hosting for fast and secure deployment
-- Contact form integration (Web3Forms on repo version / FormSubmit in real-world deployment)
-- Clean UI with professional layout
-- Cross-browser compatibility
+
+- **Responsive Navigation Bar**
+
+  - Top menu with sidebar for mobile view.
+
+- **Hero Section**
+
+  - Headline with intro text and call-to-action button.
+
+- **About Section**
+
+  - History, mission, and experience details.
+
+- **Services Section**
+
+  - Custom machine die making
+  - Plastic injection mold design
+  - Metal die model fabrication
+  - Die repair & modification
+
+- **Gallery Section**
+
+  - Showcasing real project work.
+
+- **Contact Section**
+
+  - Contact form powered by **Web3Forms API**.
+  - Auto-validation and success/error messages.
+  - Direct links to email and phone.
+
+- **Footer**
+
+  - Company information and copyright.
+
+- **Image Loading Effects**
+  - Lazy loading with fade-in effect.
 
 ---
 
-## 📂 Project Structure
-```bash
-portfolio-website/
-│── index.html        # Main HTML file
-│── style.css         # Stylesheet
-│── script.js         # JavaScript functionality
-│── screenshots/      # Screenshots (desktop & phone)
-│── README.md         # Documentation
+## 📧 Contact Form (Web3Forms Integration)
+
+- The form uses [Web3Forms](https://web3forms.com/) to send messages.
+- Add your **Access Key** inside the `<form>`:
+
+```html
+<input type="hidden" name="access_key" value="YOUR_ACCESS_KEY" />
+```
+
+- Current Access Key in use:
+
+```
+aabe2adb-3248-*************  ☠️💀🗿
 ```
 
 ---
 
-## ⚙️ Tech Stack
-- **Frontend**: HTML, CSS, JavaScript  
-- **Backend/Hosting**: Firebase  
-- **Forms**: Web3Forms (GitHub Repo), FormSubmit (Live Site)  
-- **Version Control**: Git & GitHub  
+## 🚀 How to Run Locally
+
+1. Clone the repository:
+
+   ```bash
+   git clone https://github.com/your-username/vishnu-engineering-works.git
+   ```
+
+2. Navigate into the project folder:
+
+   ```bash
+   cd vishnu-engineering-works
+   ```
+
+3. Open `index.html` in any browser.
 
 ---
 
-## 🚀 Getting Started
+## 🛠️ Technologies Used
 
-### 1️⃣ Clone the Repository
-```sh
-git clone https://github.com/YOUR_USERNAME/portfolio-website.git
-cd portfolio-website
-```
-
-### 2️⃣ Run Locally
-Simply open `index.html` in your browser.
-
-### 3️⃣ Deployment
-Deployed using Firebase Hosting:
-```sh
-firebase init
-firebase deploy
-```
+- **HTML5**
+- **CSS3**
+- **JavaScript (Vanilla JS)**
+- **Web3Forms API** (for contact form submissions)
 
 ---
 
-## 📌 Roadmap / Future Enhancements
-- Add blog section with CMS support
-- Dark/Light theme toggle
-- Enhanced admin panel for inquiries
-- More animations & micro-interactions
+## 📞 Contact Info
 
----
-
-## 🤝 Contribution Guide
-1. Fork the repository  
-2. Create your feature branch (`git checkout -b feature-name`)  
-3. Commit your changes (`git commit -m 'Add feature'`)  
-4. Push to the branch (`git push origin feature-name`)  
-5. Open a Pull Request  
+**Vishnu Engineering Works**  
+Ahmedabad, Gujarat – India  
+📧 [vishnuengineering01@gmail.com](mailto:vishnuengineering01@gmail.com)  
+📞 +91-9825588038
 
 ---
 
 ## 📜 License
-This project is licensed under the **MIT License** – feel free to use and modify.
+
+© 2025 Vishnu Engineering Works. All rights reserved.
+
+## 📸 Website Screenshots
+
+### 🏠 Desktop & Phone view
+
+![Desktop view](GALLERY/desktop&phone.jpg)
 
 ---
-
-## 🙏 Acknowledgements
-- [Firebase](https://firebase.google.com/) for hosting  
-- [Web3Forms](https://web3forms.com/) & [FormSubmit](https://formsubmit.co/) for form handling  
-- [Font Awesome](https://fontawesome.com/) for icons  
-- Inspiration & guidance from real-world client requirements  
-
----
-
-💡 **Note:** This project is actively used by a real-world company and deployed on Firebase as their official website.
